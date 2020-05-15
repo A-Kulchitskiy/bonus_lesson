@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+    background: #000000;
+    position: relative;
+}
+
+
+/* flower====================
+=========*/
+
+.circle {
+    width: 15%;
+    height: 15%;
+    background: #ff0000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle:hover {
+    z-index: 3;
+}
+
+.lu {
+    top: 18%;
+    left: 18%;
+}
+
+.ld {
+    bottom: 18%;
+    left: 18%;
+}
+
+.rd {
+    bottom: 18%;
+    right: 18%;
+}
+
+.ru {
+    top: 18%;
+    right: 18%;
+}
+
+.lu:hover {
+    background: #00ffff;
+}
+
+.ld:hover {
+    background: #008000;
+}
+
+.rd:hover {
+    background: #ff4500;
+}
+
+.ru:hover {
+    background: #f5deb3;
+}
+
+.sqare {
+    width: 50%;
+    height: 50%;
+    background: #0000ff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.mini-sqare {
+    width: 25%;
+    height: 25%;
+    border-radius: 5%;
+    background: #9acd32;
+    position: absolute;
+    top: 37%;
+    left: 37%;
+}
+
+.sqare:hover {
+    background: #ffff00;
+    z-index: 2;
+}
